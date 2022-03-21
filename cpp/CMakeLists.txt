@@ -1,7 +1,7 @@
 add_library(hexagon INTERFACE)
 
 target_include_directories(hexagon INTERFACE 
-	$<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
+	$<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/cpp/include>
 	$<INSTALL_INTERFACE:include>
 	)
 
