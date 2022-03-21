@@ -5,8 +5,7 @@ project(
 	VERSION 
           0.1
 	DESCRIPTION 
-        "C++ implementation of Hexagonal grids, as describe at redblobgames 
-         (www.redblobgames.com/grids/hexagons-v2)"
+        "C++ implementation of Hexagonal grids, as describe at redblobgames (www.redblobgames.com/grids/hexagons-v2)"
 	LANGUAGES 
           CXX
 )

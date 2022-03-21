@@ -4,7 +4,7 @@
     file(GLOB_RECURSE HEXAGON_PUBLIC_HEADERS ${HEXAGON_PUBLIC_HEADER_DIR}/*.h)
 
     set(DOXYGEN_INPUT_DIR 
-            ${PROJECT_SOURCE_DIR}/include)
+            ${PROJECT_SOURCE_DIR}/cpp/include)
     set(DOXYGEN_OUTPUT_DIR 
             ${CMAKE_CURRENT_BINARY_DIR}/doxygen)
     set(DOXYGEN_INDEX_FILE 
