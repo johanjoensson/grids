@@ -19,6 +19,7 @@ message( STATUS "-------- BUILD-TYPE: ${CMAKE_BUILD_TYPE}")
 if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME OR MODERN_CMAKE_BUILD_TESTING)
         set(BUILD_TESTS TRUE)
         enable_testing()
+        find_package(GTest REQUIRED)
         message( STATUS "-------- BUILDING TESTS")
 endif()
 
