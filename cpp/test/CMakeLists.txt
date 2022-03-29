@@ -1,5 +1,8 @@
 set(TEST_FILES
 	tests.cpp
+        hexagon.cpp
+        point.cpp
+        edge.cpp
 )
 
 include_directories(${GTEST_INCLUDE_DIRS})
