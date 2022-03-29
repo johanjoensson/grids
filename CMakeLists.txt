@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.14..)
 
 project(
-        Hexagon
+        Grids
 	VERSION 
           0.1
 	DESCRIPTION 
-        "C++ implementation of Hexagonal grids, as describe at redblobgames (www.redblobgames.com/grids/hexagons-v2)"
+        "Grids/maps of various geometric shapes (starting with hexagons)."
 	LANGUAGES 
           CXX
 )
